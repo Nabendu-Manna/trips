@@ -33,6 +33,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 fit: BoxFit.cover
               )
             ),
+            
             child: Container(
               margin: const EdgeInsets.only(top: 150, left: 20, right: 20),
               child: Row(
@@ -57,6 +58,7 @@ class _WelcomePageState extends State<WelcomePage> {
                       )
                     ],
                   ),
+                  
                   Column(
                     children: List.generate(3, (indexDots) {
                       return Container(
